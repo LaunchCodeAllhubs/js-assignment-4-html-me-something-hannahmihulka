@@ -25,6 +25,10 @@ main {
     color: red;
 }
 
+.funParagraph {
+    color: green;
+}
+
 section {
     margin-bottom: 20px;
 }
