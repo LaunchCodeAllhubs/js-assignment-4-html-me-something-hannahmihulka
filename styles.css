@@ -2,10 +2,66 @@
 
 body {
     font-family: Courier New, monospace;
-    color:#8b008b;
+    color: #556b2f;
     background-color: #deb887;
+    margin: 0; /* Remove default margin */
+    padding: 10px; /* Add padding to the body */
 }
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #8b0000;
+    color: #fff;
+}
+
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
 
 h2 {
     font-family: Georgia, serif;
+    margin-bottom: 10px;
 }
+
+
+p {
+    margin-bottom: 10px;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+
+.important {
+    font-weight: bold;
+    color: #ff0000;
+    padding: 5px;
+    border: 1px solid #ff0000;
+}
+
+#special-section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
