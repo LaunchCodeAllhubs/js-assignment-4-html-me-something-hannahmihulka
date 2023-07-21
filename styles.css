@@ -4,8 +4,8 @@ body {
     font-family: Courier New, monospace;
     color: #556b2f;
     background-color: #deb887;
-    margin: 0; /* Remove default margin */
-    padding: 10px; /* Add padding to the body */
+    margin: 8px;
+    padding: 10px; 
 }
 
 
@@ -19,6 +19,10 @@ header {
 
 main {
     padding: 20px;
+}
+
+#mainHeading {
+    color: red;
 }
 
 section {
