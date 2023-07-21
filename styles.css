@@ -6,6 +6,7 @@ body {
     background-color: #deb887;
     margin: 8px;
     padding: 10px; 
+    display: block;
 }
 
 
@@ -21,6 +22,26 @@ main {
     padding: 20px;
 }
 
+#onlyskin {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+
+#timeasasymptom {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+
+#clamcrabcockle {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
 
 section {
     margin-bottom: 20px;
@@ -35,6 +56,9 @@ h2 {
 
 p {
     margin-bottom: 10px;
+    padding: 20px;
+    color:darkslateblue;
+    background-color:silver; 
 }
 
 
@@ -53,16 +77,23 @@ footer {
 }
 
 
-.important {
-    font-weight: bold;
-    color: #ff0000;
-    padding: 5px;
-    border: 1px solid #ff0000;
-}
-
 #special-section {
     border: 1px solid #ccc;
     padding: 20px;
     background-color: #f0f0f0;
 }
 
+.important {
+    font-weight: bold;
+    color: #0f2b62;
+    padding: 5px;
+}
+
+#mainHeading {
+    color: red; 
+}
+
+/* Class Selector */
+.funParagraph {
+    color: green; /* Paragraph with class "funParagraph" will have green color */
+}
